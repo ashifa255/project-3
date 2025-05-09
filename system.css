@@ -197,7 +197,7 @@ header .navbar{
     padding: 120px 0;
     background: var(--light-pink-color);
 }
-
+ 
 .about-section .section-content{
     display: flex;
     gap: 50px;
@@ -225,6 +225,17 @@ header .navbar{
 
 }
 
+.about-section .social-link-icon{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.about-section .social-link-icon .social-link{
+    color: var(--dark-color);
+    font-size: var(--font-size-l);
+
+}
 
 @media screen and (max-width:767px) {
 
