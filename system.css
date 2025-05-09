@@ -176,6 +176,17 @@ header .navbar{
     background: var(--button-color);
 }
 
+.about-section{
+    padding: 120px 0;
+    background: var(--light-pink-color);
+}
+
+.about-section .section-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media screen and (max-width:767px) {
 
     :root{
